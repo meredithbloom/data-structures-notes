@@ -93,34 +93,14 @@ class SinglyLinkedList:
         prev.next = temp
         return prev
          
-        # if headval is not None:
-        #     if headval.val == RemoveKey:
-        #         self.head = headval.next 
-        #         headval = None 
-        #         return 
-        # while headval is not None:
-        #     if headval.val == RemoveKey:
-        #         break
-        #     prev = headval
-        #     headval = headval.next
-        # if headval == None:
-        #     return
-        # prev.next = headval.next 
-        # headval = None        
-        
-        
-
 newlist = SinglyLinkedList()
 newlist.head = Node("Mon")
 e2 = Node("Tues")
 e3 = Node("Wed")
 
-
 newlist.head.next = e2
 e2.next = e3
-
-
-#newlist.list_print()        
+    
 
 newlist.addAtHead("Sun")
 newlist.addAtTail("Thurs")
@@ -129,5 +109,8 @@ newlist.InsertAtIndex(4, "Fri")
 #newlist.RemoveNode("Fri")
 newlist.RemoveAtIndex(5)
 #newlist.get_index(2)
-newlist.list_print()
-print(f'the length of newlist is {newlist.get_count()}')
+# newlist.list_print()
+# print(f'the length of newlist is {newlist.get_count()}')
+
+
+

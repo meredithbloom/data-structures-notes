@@ -41,6 +41,22 @@ for x in newset:
     print(x)
 
 
+# .add() method
+newset.add("orange")
+print(newset)
+
+
+# .update() method. can add items from other iterable objects
+tropical = {'pineapple', 'mango', 'papaya'}
+myfruitsset.update(tropical)
+print(myfruitsset)
+
+
+# .remove() method / .discar() method
+myfruitsset.remove('banana')
+print(myfruitsset)
+
+
 # ---------------------------------------
 # ---------------------------------------
 
